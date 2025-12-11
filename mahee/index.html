@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Masrufa Tanjila Mahee — Portfolio</title>
+  <meta name="description" content="Portfolio — projects, achievements, learning journey, contact" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">M</div>
+        <div class="brand-text">
+          <h1 class="brand-name">Masrufa Tanjila Mahee</h1>
+          <p class="brand-role">Full-stack Developer & ML Learner</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+        <button id="themeToggle" class="theme-btn" aria-pressed="false">Dark</button>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <h2>Hello, I'm</h2>
+          <h1 class="hero-name">Mahee</h1>
+          <p class="hero-sub">
+            Results-driven Full-stack Developer & Researcher building scalable web applications and advanced Machine Learning solutions.
+          </p>
+
+          <!-- Bangladesh Live Time -->
+          <div class="live-time">
+            <strong>Bangladesh Time:</strong> <span id="bdTime">Loading...</span>
+          </div>
+
+          <div class="hero-ctas">
+            <a href="#contact" class="btn primary">Hire Me</a>
+            <a href="https://github.com/Tanjila1763" target="_blank" class="btn outline">View GitHub</a>
+            <a href="https://bd.linkedin.com/in/masrufa-tanjila-mahee-58128132b" target="_blank" class="btn outline">View LinkedIn</a>
+            <a href="resume.pdf" class="btn outline" download>Download Resume</a>
+          </div>
+
+          <ul class="quick-stats">
+            <li><strong id="stat-projects">5+</strong><span>Projects</span></li>
+            <li><strong id="stat-papers">2</strong><span>Papers</span></li>
+            <li><strong id="stat-certifications">5</strong><span>Certifications</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="photo-frame">
+            <img id="heroPhoto" src="mahee.jpeg" alt="Masrufa Tanjila Mahee — portrait">
+          </div>
+          <div class="contact-mini">
+            <a href="mailto:maheemasrufa@gmail.com" class="chip">maheemasrufa@gmail.com</a>
+            <a href="tel:+8801626673798" class="chip">+8801626673798</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section card">
+      <h2>About Me</h2>
+      <p>
+        I am an undergraduate Computer Science student focused on web development, problem solving, and the fundamentals of Machine Learning. My work emphasizes clean code, continuous learning, and building real-world projects that improve my practical skills.
+      </p>
+
+      <div class="split">
+        <div>
+          <h3>Skills</h3>
+          <ul class="skills">
+            <li>Skill Development <span>🧠</span></li>
+            <li>Web Development <span>🌐</span></li>
+            <li>Coding Challenges <span>🏆</span></li>
+            <li>Team Collaboration <span>🤝</span></li>
+            <li>University Projects <span>🎓</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Education & Experience</h3>
+          <p>B.Sc. in Computer Science (Undergraduate) — Daffodil International University</p>
+          <p>Actively involved in course projects, workshops, and coding contests to strengthen problem-solving skills.</p>
+          <p>Collaborated with peers on web and robotics projects, focusing on practical implementation and learning by doing.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <h2>Achievements & Certifications</h2>
+      <div class="ach-grid">
+        <article class="ach-card">
+          <img src="images/portfolio-cert.jpg" alt="Personal Portfolio Achievement" class="ach-thumb">
+          <div class="ach-body">
+            <h4>Personal Portfolio Website</h4>
+            <p>Developed a fully functional personal portfolio website to showcase skills, projects, and achievements.</p>
+          </div>
+        </article>
+
+        <article class="ach-card">
+          <img src="images/online-courses.jpg" alt="Technical Learning Certificates" class="ach-thumb">
+          <div class="ach-body">
+            <h4>Technical Learning Certificates</h4>
+            <p>Completed multiple online courses in web development, programming, and software design to enhance practical knowledge.</p>
+          </div>
+        </article>
+
+        <article class="ach-card">
+          <img src="" alt="Coding Challenges" class="ach-thumb">
+          <div class="ach-body">
+            <h4>Coding Challenges & Contests</h4>
+            <p>Participated in online coding competitions and problem-solving challenges to improve logical and analytical skills.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section card">
+      <h2>Projects</h2>
+      <p class="muted">Selected projects with brief descriptions and technologies used.</p>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>Quadruped Walking Robot</h3>
+          <p>
+            A four-legged robot prototype built to experiment with basic gait control and robotics motion using servo motors and a microcontroller.
+          </p>
+          <div class="proj-meta">Arduino • C/C++ • Servo Motors • Embedded Systems</div>
+          <div class="proj-actions">
+            <a class="btn small" href="#" target="_blank" rel="noopener">GitHub (Coming Soon)</a>
+            <a class="btn small outline" href="#" target="_blank" rel="noopener">Demo (Coming Soon)</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section card">
+      <h2>Contact Me</h2>
+
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="subject">Subject</label>
